@@ -1,5 +1,5 @@
 $sound = new-Object System.Media.SoundPlayer; 
-$sound.SoundLocation = "C:\Users\Antonio\Music\Sonidos\160483__koyber__casio-f-91w-hour-chime.wav";
+$sound.SoundLocation = "160483__koyber__casio-f-91w-hour-chime.wav";
 
 [int]$hora = Get-Date -Format "HH"
 
